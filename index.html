@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html class="config_projeto">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <title>Decodificador</title>
+    <link rel="icon" href="s.ico" />
+
+    <meta name="description" content="pesquisa do googles" />
+
+    <meta property="og:title" content="le Wagon -thes" />
+    <meta property="og:image" content="facebool-card.jpg" />
+    <meta property="og:description" content="Le Wagon iss the" />
+
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/sytle.css" />
+    <script src="./js/script.js" defer></script>
+  </head>
+
+  <body class="container">
+    <div class="container">
+      <header>
+        <!-- logo projeot -->
+        <div class="logo">
+          <img src="./imagens/logo1.png" />
+        </div>
+      </header>
+      <main>
+        <div class="dados_input">
+          <p class="texto_digite texto_dig_padrao">
+            <label for="texto">Digite seu Texto</label>
+          </p>
+
+          <textarea
+            class="texto_criptar texto_dig_padrao"
+            name="texto"
+            id="texto_dig"
+            rows="8"
+            cols="50"
+          >
+          </textarea>
+
+          <img src="./imagens/info.jpg" class="info_log" />
+
+          <p class="info1">Apenas letras minúsculas e sem acento.</p>
+
+          <div class="botoes">
+            <button class="butoon_pad button_cripto" onclick="geraCripto('1')">
+              Criptografar
+            </button>
+            <button
+              class="butoon_pad button_descripto"
+              onclick="geraCripto('2')"
+            >
+              Descriptografar
+            </button>
+          </div>
+        </div>
+
+        <div class="tradutor">
+          <textarea
+            class="texto_secreto texto_dig_padrao"
+            name="texto"
+            id="texto_dig"
+            rows="8"
+            cols="50"
+          >
+          </textarea>
+
+          <img src="./imagens/foto1.jpg" class="img1" />
+          <p class="mensagem_1">Nenhuma mensagem econtrada.</p>
+          <p class="mensagem_2">
+            Digite um texto que você deseja criptografar ou descriptografar.
+          </p>
+          <button class="butoon_pad button_copia" onclick="copiarTexto()">
+            Copiar
+          </button>
+        </div>
+      </main>
+      <footer></footer>
+    </div>
+  </body>
+</html>

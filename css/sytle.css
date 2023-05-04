@@ -1,0 +1,196 @@
+/* configuraçoes padrao todo projeto -html */
+
+.config_projeto {
+  /*background: red;
+  /* padrao letras */
+
+  background: rgba(216, 223, 232, 0.5);
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  padding: relative;
+}
+
+/* configuraçoes area da pagina */
+.container {
+  position: absolute;
+  width: 1440px;
+  height: 1024px;
+  background: #f3f5fc;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+
+.logo {
+  /* Logo */
+  position: absolute;
+  width: 32px;
+  height: 48px;
+  left: 8.2%;
+  top: 2.77%;
+}
+
+/* Digite seu texto */
+.texto_digite {
+  position: absolute;
+  width: 680px;
+  height: 48px;
+  left: 240px;
+  top: 168px;
+}
+
+/* Digite seu texto */
+.texto_dig_padrao {
+  font-size: 32px;
+  line-height: 150%;
+  /* Dark blue/dark-blue-300 */
+  color: #0a3871;
+  text-align: left;
+}
+
+.desativo {
+  z-index: -10;
+}
+
+.texto_secreto {
+  position: absolute;
+  width: 336px;
+  height: 781px;
+  top: 5%;
+  left: 8%;
+  text-transform: lowercase;
+  border: none;
+  background: #ffffff;
+  visibility: hidden;
+}
+
+.texto_criptar {
+  position: absolute;
+  width: 654px;
+  height: 619px;
+  left: 240px;
+  top: 220px;
+  text-transform: lowercase;
+  border: none;
+  background: #f3f5fc;
+}
+
+.info_log {
+  position: absolute;
+  left: 16.66%;
+  bottom: 15.13%;
+  background: #495057;
+}
+
+/* Apenas letras minúsculas e sem acento. */
+.info1 {
+  position: absolute;
+  width: 228px;
+  height: 18px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  color: #495057;
+  opacity: 0.8;
+  bottom: 15.13%;
+  left: 18.33%;
+}
+
+.botoes {
+  position: absolute;
+  bottom: 7.03%;
+  left: 16.66%;
+  width: 680px;
+  height: 70px;
+}
+
+.butoon_pad {
+  position: relative;
+  width: 328px;
+  height: 67px;
+  padding: 24px;
+  gap: 8px;
+  border: 1px solid #0a3871;
+  border-radius: 24px;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+}
+
+.button_cripto {
+  background-color: #0a3871;
+  color: #ffffff;
+}
+
+/* Button */
+.button_descripto {
+  background-color: rgba(216, 223, 232, 1);
+  color: #0a3871;
+}
+
+.button_copia {
+  position: absolute;
+  background-color: rgba(216, 223, 232, 1);
+  color: #0a3871;
+  bottom: 3.5%;
+  left: 8%;
+  visibility: hidden;
+}
+
+/* Rectangle 1 */
+.tradutor {
+  position: absolute;
+  width: 400px;
+  height: 944px;
+  left: 1000px;
+  top: 40px;
+
+  /* White */
+  background: #ffffff;
+  /* shadow */
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+  border-radius: 32px;
+}
+
+/* Nenhuma mensagem encontrada */
+.mensagem_1 {
+  position: absolute;
+  top: 61.33%;
+  left: 8%;
+  width: 336px;
+  height: 58px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 120%;
+  /* or 29px */
+  text-align: center;
+  /* Gray/gray-500 */
+  color: #343a40;
+  visibility: visible;
+}
+
+/* Digite um texto que você deseja criptografar ou descriptografar. */
+.mensagem_2 {
+  position: absolute;
+  bottom: 25.74%;
+  left: 8%;
+  width: 336px;
+  height: 48px;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+  text-align: center;
+  /* Gray/gray-400 */
+  color: #495057;
+  visibility: visible;
+}
+
+.img1 {
+  position: absolute;
+  top: 25.74%;
+  left: 8%;
+  visibility: visible;
+}
